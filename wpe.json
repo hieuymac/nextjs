@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "repo": "hieuymac/nextjs",
+  "region": "US-C",
+  "environments": [
+    {
+        "id": "thoa261ucdib5osys8cgchp",
+      "name": "Staging",
+      "branch": "main",
+      "wp_environment_name": "nextjslocal",
+      "env_variables": [
+        {
+        "key": "NEXT_PUBLIC_WORDPRESS_URL",
+        "value": "https://nextjslocal.wpengine.com"
+        }
+      ]
+    }
+  ]
+}

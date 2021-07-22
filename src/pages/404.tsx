@@ -13,7 +13,6 @@ export default function Page(): JSX.Element {
       />
       <main className="content content-page">
         <Hero title={`Oops! all spaghetti`} />
-        bgImage="/images/cheems.jpeg"
 	<div className="wrap">
           <div>
             <div>
