@@ -32,9 +32,9 @@ export default function Page() {
 
       <main className="content">
         <Hero
-          title="Get Started with Headless"
-          buttonText="Developer Docs"
-          buttonURL="https://developers.wpengine.com/"
+          title="Get Started with World domination"
+          buttonText="This will blow up the site"
+          buttonURL="https://www.youtube.com/watch?v=Ck2R8oJdsQM&ab_channel=10HoursChannel"
           button2Text="Headless on GitHub"
           button2URL="https://github.com/wpengine/headless-framework"
           bgImage="/images/headless_hero_background.jpg"
