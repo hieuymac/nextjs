@@ -1,7 +1,6 @@
 import React from 'react';
 import { client } from 'client';
 import { Header, Hero, Footer } from '../components';
-
 export default function Page(): JSX.Element {
   const { useQuery } = client;
   const generalSettings = useQuery().generalSettings;
@@ -13,7 +12,7 @@ export default function Page(): JSX.Element {
         description={generalSettings?.description}
       />
       <main className="content content-page">
-        <Hero title={`Oops! That page can’t be found.`} />
+        <Hero title={`Oops! all spaghetti`} />
         bgImage="/images/cheems.jpeg"
 	<div className="wrap">
           <div>
