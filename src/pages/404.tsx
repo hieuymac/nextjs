@@ -14,7 +14,8 @@ export default function Page(): JSX.Element {
       />
       <main className="content content-page">
         <Hero title={`Oops! That page can’t be found.`} />
-        <div className="wrap" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWi532p_16R8peZqxMsbCFmVYznxvvfWd_3w&usqp=CAU');">
+        bgImage="/images/cheems.jpeg"
+	<div className="wrap">
           <div>
             <div>
               <p>
